@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Geist", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  /* font-family: 'Bree Serif', sans-serif; */
+}
+
+.text-bg {
+  background-image: url(https://media.istockphoto.com/id/516378717/vector/lit-wooden-background.jpg?s=612x612&w=0&k=20&c=dQoWKVzKwbbkAKQup5K1IFWCsQ0Kygx5pgrfyrTiwFw=);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0.8;
+}
+/* h1 {
+  font-size: 55px;
+} */
+
+.bree-serif {
+  font-family: "Bree Serif", serif;
+}
+
+.footer h4 {
+  color: #D99510;
+  /* font-weight: 600; */
+  font-size: 1.1rem;
+  font-family: "Bree Serif", serif;
+}
+
+.footer a , .footer span {
+  color: #b5b5b5;
+ 
+}
+.footer a:hover{
+  color: #e6e6e6;
+}
