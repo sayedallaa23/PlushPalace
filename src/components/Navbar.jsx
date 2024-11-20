@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { FaXmark } from "react-icons/fa6";
-
+import { GiIndianPalace } from "react-icons/gi";
 function Navbar() {
   const hamref = React.useRef(null);
   function handleHamMenu() {
@@ -15,9 +15,14 @@ function Navbar() {
   }
   return (
     <div>
-      <nav className="flex font-[300] justify-between items-center py-[2rem] px-[4rem] text-[#cacaca] ">
-        <div>Logo</div>
-        <div className="gap-[1.5rem] items-center hidden md:flex">
+      <nav className="flex font-[300] justify-between items-center py-[2rem] px-[2rem] md:px-[4rem] text-[#cacaca] ">
+        <div className="flex items-center justify-between gap-2">
+          <div>
+            <GiIndianPalace className="text-[#F3AA1C] text-[1.5rem] " />
+          </div>
+          <div>PlushPalace</div>
+        </div>
+        <div className="gap-[1.5rem] items-center hidden lg:flex">
           <HashLink to="/#header" className="hover:text-[#F0F3F3]">
             Home
           </HashLink>
@@ -31,7 +36,7 @@ function Navbar() {
             Contact Us
           </HashLink>
         </div>
-        <HashLink to={"/"} className="hover:text-[#F0F3F3] hidden md:flex">
+        <HashLink to={"/"} className="hover:text-[#F0F3F3] hidden lg:flex">
           Best Selling
         </HashLink>
         <div className="rounded-[10px] border-[2px] border-[#262626] bg-[#1A1A1A] p-2 lg:hidden">

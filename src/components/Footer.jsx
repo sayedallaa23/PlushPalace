@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook ,FaTwitter , FaInstagram } from "react-icons/fa";
-import { HashLink } from 'react-router-hash-link';
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { HashLink } from "react-router-hash-link";
+import { GiIndianPalace } from "react-icons/gi";
 
 function Footer() {
   return (
-    <div className="px-[2rem] pt-[4rem] pb-[1rem] md:px-[8rem] md:pt-[4rem] bg-[#252731] text-[#F0F3F3] mt-[10rem] footer"id="footer-links">
+    <div
+      className="px-[2rem] pt-[4rem] pb-[1rem] md:px-[8rem] md:pt-[4rem] bg-[#252731] text-[#F0F3F3] mt-[10rem] footer"
+      id="footer-links"
+    >
       <div className="flex flex-col justify-between lg:flex-row pb-[2rem] mb-[4rem] border-b-[1px] border-neutral-600">
         <div className="bree-serif">
           <h2 className="text-[2rem]">Get a Free Counsultancy Right Now</h2>
@@ -33,7 +37,7 @@ function Footer() {
           </div>
           <div className="flex flex-col gap-3 w-[100%] lg:w-[25%] mr-[2rem]">
             <h4>Contact Us</h4>
-            <div  className="flex items-start justify-between">
+            <div className="flex items-start justify-between">
               <div className="flex flex-col gap-3">
                 <p>
                   Email : <span>example@mail.com</span>
@@ -51,20 +55,32 @@ function Footer() {
           <div className="flex flex-col gap-3 w-[100%] lg:w-[25%] mr-[2rem]">
             <h4>Social Media</h4>
             <div className="flex items-start justify-between">
-            <div className="flex items-start justify-start gap-3">
-              <Link><FaFacebook  className="text-[2rem]"/></Link>
-              <Link><FaTwitter  className="text-[2rem]"/></Link>
-              <Link><FaInstagram  className="text-[2rem]"/></Link>
+              <div className="flex items-start justify-start gap-3">
+                <Link>
+                  <FaFacebook className="text-[2rem]" />
+                </Link>
+                <Link>
+                  <FaTwitter className="text-[2rem]" />
+                </Link>
+                <Link>
+                  <FaInstagram className="text-[2rem]" />
+                </Link>
+              </div>
+              <div className="h-[20vh] bg-neutral-600 w-[1px] hidden lg:flex"></div>
             </div>
-            <div className="h-[20vh] bg-neutral-600 w-[1px] hidden lg:flex"></div>
-
-                
-            </div>
-
           </div>
           <div className="flex-col gap-3 w-[100%] lg:w-[25%] hidden md:flex">
-            <h4>Location</h4>
-            <div>map</div>
+            <div className="flex items-center gap-2">
+              <div>
+                <GiIndianPalace className="text-[#F3AA1C] text-[2rem] " />
+              </div>
+              <h1 className="text-[2rem] bree-serif">PlushPalace</h1>
+            </div>
+            <p className="text-[#b5b5b5]">
+              PlushPalace is your ultimate destination for luxury and
+              comfort. Explore our collection of premium plush items designed to
+              elevate your living experience.
+            </p>
           </div>
         </div>
         <div className="flex justify-between w-[100%] lg:w-[50%] mt-[2rem] font-thin text-[.9rem]">
