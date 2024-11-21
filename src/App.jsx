@@ -11,7 +11,7 @@ export const App = () => (
     <ServicesSection/>
     <RoomSection />
     <div className="bg-[#F0F3F3] text-center flex justify-center items-end">
-      <h1 className= "text-[2.5rem] md:text-[4rem] lg:text-[5rem] mt-[6rem] font-bold text-[#2A2D38] uppercase">Our Best Selling</h1>
+      <h1 className= "text-[2.5rem] md:text-[4rem] lg:text-[5rem] mt-[6rem] font-bold text-[#2A2D38] uppercase" id="most-selling">Our Best Selling</h1>
     </div>
     <MostSelling />
     

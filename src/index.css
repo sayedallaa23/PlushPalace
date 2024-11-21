@@ -9,6 +9,10 @@ body {
   /* font-family: 'Bree Serif', sans-serif; */
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .text-bg {
   background-image: url(https://media.istockphoto.com/id/516378717/vector/lit-wooden-background.jpg?s=612x612&w=0&k=20&c=dQoWKVzKwbbkAKQup5K1IFWCsQ0Kygx5pgrfyrTiwFw=);
   background-clip: text;

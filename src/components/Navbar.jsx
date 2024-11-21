@@ -36,7 +36,7 @@ function Navbar() {
             Contact Us
           </HashLink>
         </div>
-        <HashLink to={"/"} className="hover:text-[#F0F3F3] hidden lg:flex">
+        <HashLink to={"/#most-selling"} className="hover:text-[#F0F3F3] hidden lg:flex">
           Best Selling
         </HashLink>
         <div className="rounded-[10px] border-[2px] border-[#262626] bg-[#1A1A1A] p-2 lg:hidden">
